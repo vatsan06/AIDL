@@ -1,6 +1,15 @@
-# road_damage.yaml
-train: ./dataset/images/train
-val: ./dataset/images/val
+# Train, val, and test dataset paths relative to the YOLO root or absolute paths
+path: D:/Sept-modules-assignments/AIDL docs/RDD_YOLO_CLEAN
+train: train/images
+val: val/images
+test: test/images
 
-nc: 1
-names: ['pothole'] # Add 'crack', 'alligator_crack' etc. if using RDD2022
+# Number of classes
+nc: 4
+
+# Class names mapping to your IDs
+names:
+  0: Longitudinal Crack
+  1: Transverse Crack
+  2: Alligator Crack
+  3: Pothole
