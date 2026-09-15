@@ -1,0 +1,7 @@
+path: D:/Sept-modules-assignments/AIDL docs/RDD_YOLO_CLEAN
+train: train/images
+val: val/images
+test: test/images
+
+nc: 4
+names: ['D00', 'D10', 'D20', 'D40']
